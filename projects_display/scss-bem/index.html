@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SCSS and BEM</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <!-- Learning Objectives -->
+  <!-- benefits of scss & what cool things can we do with it -->
+  <!-- what is BEM and why is it useful? -->
+  <!--In the below example, 
+      Block:div
+      Element: img, h2 & p tags inside the div
+      Modifier: light/dark theme -->
+
+  <!--naming conventions..
+  Block: Something meaningfull to the block ( in our case "card")
+  Element : blockClassname__element ( goes on the element)
+  Modifier : blockClassname--modifier ( goes on the block)
+  -->    
+  <div class="card card--light">
+    <img class="card__image" src="https://i.picsum.photos/id/124/300/300.jpg?hmac=u73ZboFrVsZcoZ9z0MzXMb0HdmXkM1kTPSAuN2RuZUg" alt="Small Boat">
+    <h2 class="card__title">I am a light themed card</h2>
+    <p class="card__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea amet, quam tempora quasi debitis magni quaerat, rerum placeat facilis accusamus nulla, ipsam voluptates saepe impedit recusandae dolorum expedita culpa? Rerum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea amet, quam tempora quasi debitis magni quaerat, rerum placeat facilis accusamus nulla, ipsam voluptates saepe impedit recusandae dolorum expedita culpa? Rerum.</p>
+  </div>
+  <div class="card card--dark">
+    <img class="card__image" src="https://i.picsum.photos/id/124/300/300.jpg?hmac=u73ZboFrVsZcoZ9z0MzXMb0HdmXkM1kTPSAuN2RuZUg" alt="Small Boat">
+    <h2 class="card__title">I am a dark themed card</h2>
+    <p class="card__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus autem dolores, facilis atque ea dicta at officia. In, qui ratione. Dignissimos nemo consequuntur ducimus? Molestiae, unde deleniti! Ab, labore quidem!</p>
+  </div> 
+<!-- <div class="footer"> -->
+  <button class="footer footer__white footer__normal">Normal button</button>
+  <button class="footer footer__success">Success button</button>
+  <button class="footer footer__white footer__danger">Danger button</button>
+<!-- </div> -->
+
+<!-- <button class="button button--normal" >
+	Normal button
+</button>
+<button class="button button--success">
+	Success button
+</button>
+<button class="button button--danger">
+	Danger button
+</button> -->
+</body>
+</html>

@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.footer {
+  text-align: center;
+  height: 40px;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 3px;
+  font-size: medium;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer__normal {
+  margin-left: 500px;
+}
+.footer__white {
+  background-color: #dfdf;
+}
+.footer__success {
+  background: #4A993E;
+  color: white;
+}
+.footer__danger {
+  color: brown;
+}

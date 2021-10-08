@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+body nav {
+  background-color: chartreuse;
+}
+body main {
+  justify-content: center;
+}
+body .my_img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  justify-content: center;
+}

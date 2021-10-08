@@ -1,0 +1,86 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  /* The following 3 lines are to adjust the height & width & to hide the scroll bar */
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-image: url("./bk_img3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+body .aboutHeader {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 10px solid blue;
+  font-size: xx-large;
+  font-weight: bold;
+}
+body .about {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  grid-template-rows: 1fr;
+  grid-gap: 50px;
+}
+body .about__leftPanel {
+  border-right: 10px solid blue;
+  padding-top: 100px;
+}
+body .about__leftPanel--name {
+  text-align: center;
+  text-decoration: underline 1px black;
+  text-underline-offset: 0.2em;
+  font-size: 2.5vw;
+  padding-top: 20px;
+}
+body .about__leftPanel--desg {
+  text-align: center;
+  font-size: 1.5vw;
+  padding-top: 10px;
+}
+body .about__leftPanel--img {
+  display: block;
+  margin: auto;
+  height: 50%;
+  border: 5px solid #b35226;
+  border-radius: 5px;
+}
+body .about__rightPanel__list {
+  list-style-type: none;
+  font-size: x-large;
+  list-style-image: linear-gradient(to left bottom, pink, blue);
+  padding: 50px;
+}
+body .about__rightPanel__list li {
+  padding: 0.1em 0 0.1em 20px;
+}
+body .about__rightPanel__coach > h3 {
+  font-size: x-large;
+  padding-bottom: 10px;
+  color: blue;
+}
+body .about__rightPanel__coach > ul {
+  list-style-type: none;
+  font-size: x-large;
+  padding-left: 50px;
+}
+body .about__rightPanel__coach > ul li::before {
+  content: "🥞";
+  margin-left: -20px;
+  margin-right: 10px;
+}
+body .about__rightPanel__contact {
+  padding-top: 50px;
+  font-size: large;
+}
+body .about__rightPanel__contact > h3 {
+  font-size: x-large;
+  padding-bottom: 10px;
+  color: blue;
+}

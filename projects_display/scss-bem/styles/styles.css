@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.card {
+  margin: 50px auto;
+  padding: 20px 10px;
+  text-align: center;
+  width: 400px;
+  height: 500px;
+  box-shadow: 0px 10px 30px -10px grey;
+  border-radius: 5px;
+}
+.card--light {
+  background-color: #ffe8e8;
+}
+.card--dark {
+  background-color: #973b3b;
+}
+.card__image {
+  border-radius: 5px;
+}
+.card__title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 28px;
+}
+.card__body {
+  height: 80px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  overflow: scroll;
+  font-family: "Oswald", sans-serif;
+}
+.card > h2 {
+  color: red;
+}
+
+.footer {
+  text-align: center;
+  height: 40px;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 3px;
+  font-size: medium;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer__normal {
+  margin-left: 500px;
+}
+.footer__white {
+  background-color: #ddd;
+}
+.footer__success {
+  background: #4A993E;
+  color: white;
+}
+.footer__danger {
+  color: brown;
+}

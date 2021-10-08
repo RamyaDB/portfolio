@@ -1,0 +1,36 @@
+// @use "./styles/base/abstracts.scss" ;
+
+@use "./components/card.scss";
+
+@use "./components/footer.scss";
+
+// body {
+//   background-color: purple;
+// }
+
+
+// .button {
+//   display: inline-block;
+  
+//   border-radius: 3px;
+//   padding: 7px 12px;
+//   border: 1px solid #D5D5D5;
+//   background-image: linear-gradient(#EEE, #DDD);
+//   font-family: Helvetica, arial;
+//   font-weight: 700;
+//   font-size: 16px;
+
+//   &--normal{
+//     margin-left: 200px;
+//   }
+
+//   &--success {
+//     color: #FFF;
+//     background: #569E3D linear-gradient(#79D858, #569E3D) repeat-x;
+//     border-color: #4A993E;
+//   }
+
+//   &--danger {
+//     color: #900;
+//   }
+// }
